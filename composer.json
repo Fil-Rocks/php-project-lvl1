@@ -1,0 +1,20 @@
+{
+    "name": "hexlet/code",
+    "bin": [
+            "bin/brain-games"
+    ],
+    "authors": [
+        {
+            "name": "Fil Rocks",
+            "email": "fil_rocks@mail.ru"
+        }
+    ],
+    "autoload": {
+    "psr-4": {
+      "Php\\Project\\lvl1\\": "src"
+    }
+},
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11"
+    }
+}
